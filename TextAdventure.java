@@ -75,9 +75,8 @@ public class TextAdventure {
 
     // * Room descriptions
     private static final Map<String, String> rooms = Map.of(
-            "one", "You are in the first room. The second room lies to your north.",
-            "two",
-            "You are in the second room. The first room lies to your south, and the third room lies to your east.",
+            "one", "You are in the first room. The second room lies to your north. You can use a tool here.",
+            "two", "You are in the second room. The first room lies to your south, and the third room lies to your east. You can use an item here.",
             "three", "You are in the third room.");
 
     // * Item descriptions
