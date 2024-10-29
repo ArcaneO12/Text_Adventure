@@ -84,13 +84,13 @@ public class TextAdventure {
             "item", "An item",
             "tool", "A tool");
 
-    // This ser contains rooms the player has visited
+    // This set contains rooms the player has visited
     private static Set<String> seen = new HashSet<String>();
 
-    // This ser contains the player's inventory
+    // This set contains the player's inventory
     private static Set<String> i = new HashSet<String>();
 
-    // This ser contains the items that have been used
+    // This set contains the items that have been used
     private static Set<String> used = new HashSet<String>();
 
     // Corrects the input the player gave to a cardinal direction
@@ -136,4 +136,4 @@ public class TextAdventure {
     }
 }
     
-// * == Something that changes depending on the gamen
+// * == Something that changes depending on the game
