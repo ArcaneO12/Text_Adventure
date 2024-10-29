@@ -45,7 +45,7 @@ public class TextAdventure {
             }
 
             // * Item details
-            act = itemHandling("item", "one", "two", "You used the item! Nothing happened.", act);
+            act = itemHandling("item", "three", "two", "You used the item! Nothing happened.", act);
             act = itemHandling("tool", "two", "one", "You used the tool! Nothing happened.", act);
 
             if (act != "") {
@@ -84,13 +84,13 @@ public class TextAdventure {
             "item", "An item",
             "tool", "A tool");
 
-    // This list contains rooms the player has visited
+    // This ser contains rooms the player has visited
     private static Set<String> seen = new HashSet<String>();
 
-    // This list contains the player's inventory
+    // This ser contains the player's inventory
     private static Set<String> i = new HashSet<String>();
 
-    // This list contains the items that have been used
+    // This ser contains the items that have been used
     private static Set<String> used = new HashSet<String>();
 
     // Corrects the input the player gave to a cardinal direction
@@ -135,5 +135,5 @@ public class TextAdventure {
         return act;
     }
 }
-
-// * == Something that changes depending on the game
+    
+// * == Something that changes depending on the gamen
